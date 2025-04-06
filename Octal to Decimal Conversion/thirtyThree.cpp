@@ -24,7 +24,7 @@ int main(){
 
     while(choice == "yes"){
         long octal;
-        cout<<"Enter binary number : ";
+        cout<<"Enter Octal number : ";
         cin>>octal;
        
         cout<<"Conversion of Octal ("<<octal<<") to Decimal are "<<getDecimal(octal)<<endl;
