@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     string choice;
-    cout << "Shall we start the program of HCF/GCD? (yes/no): ";
+    cout << "Shall we start the program of LCM? (yes/no): ";
     cin>>choice;
 
     while(choice == "yes"){
