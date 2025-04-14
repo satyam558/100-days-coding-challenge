@@ -21,7 +21,10 @@ int main(){
       cin>>number2;
 
       int p = factorial(number1)/factorial(number1 - number2);
-
+        // p = factorial(4) / factorial(4 - 2)
+        //   = 24 / 2
+        //   = 12
+        
       cout<<"Total possible arrangements : "<<p<<endl;
 
        cout << "Do you want to check another number? (yes/no): ";
